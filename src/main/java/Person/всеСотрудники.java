@@ -12,11 +12,10 @@ public class всеСотрудники {
         persArray[3] = new Person.Сотрудник("Сидоров Александр","рентгенолог", "893755667000", "Sidorov@mail.ru",56563, 54);
         persArray[4] = new Person.Сотрудник("Орлов Степан","Кардиолог", "893723667854", "Orlov@mail.ru",48563, 61);
         for (int i = 0; i < persArray.length; i++){
-            if(persArray[i].возраст > 40){
+            if(persArray[i].возраст >= 40){
                 persArray[i].infoPerson();
                 System.out.println();
             }
-
         }
     }
 }
